@@ -1,0 +1,28 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+
+/* ----------------------------------------------------------------------
+    Technologies Logo
+-------------------------------------------------------------------------*/
+
+.j-logo {
+	display: block;
+	text-align: center;
+}
+
+.j-logo span:hover {
+	background-color: #f8f8f8;
+	transition: 0.5s;
+}
+
+.j-logo img {
+	height: auto;
+	padding: 30px !important;
+}
