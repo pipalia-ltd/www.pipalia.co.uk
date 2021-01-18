@@ -11,18 +11,18 @@
 /* ----------------------------------------------------------------------
     Technologies Logo
 -------------------------------------------------------------------------*/
-
-.j-logo {
-	display: block;
-	text-align: center;
-}
-
-.j-logo span:hover {
+.h-bg-g div:hover {
 	background-color: #f8f8f8;
 	transition: 0.5s;
 }
 
-.j-logo img {
+.h-bg-g img {
 	height: auto;
-	padding: 30px !important;
+	padding: 36px !important;
+	max-width: 100%;
+}
+
+.h-bg-g span {
+	display: block;
+	text-align: center;
 }
