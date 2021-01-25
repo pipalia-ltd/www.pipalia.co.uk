@@ -42,11 +42,15 @@
     <div class="body-inner">
         
         <!-- Header -->
-        <header id="header" data-transparent="true" data-fullwidth="true">
+        <header id="header" data-transparent="true" data-fullwidth="true" class="dark">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
-                    <div id="logo"><a href="index.html">Pipalia LTD</a></div>
+                    <div id="logo">
+                        <a href="index.html">
+                            <span class="logo-dark">Pipalia LTD</span>
+                        </a>
+                    </div>
                     <!--End: Logo-->
                     <div class="row justify-content-end d-none">
                         <span><a href="mailto:info@pipalia.co.uk?subject=Website%20Contact">info@pipalia.co.uk</a></span>
@@ -56,23 +60,27 @@
         </header>
         <!-- end: Header -->
 
-        <!-- SECTION IMAGE FULLSCREEN -->
-        <section class="fullscreen background-image" style="background-color: #CCCCCC;">
-            <div class="container">
-                <div class="container-fullscreen">
-                    <div class="text-middle text-right">
-                        <h3 data-animate="fadeInDown" data-animate-delay="0">Hi, we are</h3>
-                        <h1 class="text-lg" data-animate="fadeInDown" data-animate-delay="500">Quality Driven</h1>
-                        <h4 data-animate="fadeInDown" data-animate-delay="1000">Bespoke Software Developers based in London</h4>
-                        <div class="scrolldown-animation" id="scroll-down">
-                            <a class="scroll-to" href="#easy-fast"><img src="images/scrolldown-dark.png" alt="">
-                            </a>
-                        </div>
+        <!-- Inspiro Slider -->
+        <div id="slider" class="inspiro-slider slider-fullscreen  dots-creative" data-height-xs="360">
+            <!-- Slide 1 -->
+            <div class="slide" data-bg-video="video/Light_Bulb.mp4">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions">
+                        <!-- Captions -->
+                        <h2>Quality Driven</h2>
+                        <h4 class="m-b-40">Bespoke Software Developers based in London</h4>
+                        <!-- end: Captions -->
                     </div>
                 </div>
+                <div id="scroll-down" class="scrolldown-animation scrolldown-bottom">
+                    <a href="#about" class="scroll-to"><img alt="" src="images/scrolldown.png">
+                    </a>
+                </div>
             </div>
-        </section>
-        <!-- end: SECTION IMAGE FULLSCREEN -->
+            <!-- end: Slide 1 -->
+        </div>
+        <!--end: Inspiro Slider -->
 
         <!-- ABOUT -->
         <section class="p-t-100">
@@ -81,7 +89,7 @@
                     <div class="col-lg-4">
                         <div class="icon-box effect medium color border center">
                             <div class="icon">
-                                <i class="fas fa-city"></i>
+                                <a href="#" id="about"><i class="fas fa-city"></i></a>
                             </div>
                             <h3>SMB</h3>
                             <p>Bespoke Software Development for Small and Medium Sized Businesses</p>
@@ -140,7 +148,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-7" data-animate="fadeIn">
-                        <p>Speak with us: <a href="tel:+447879878885">+44 (0)7879 878 885</a></p>
+                        <p>Speak with us: <a href="tel:+447879878885" id="contact">+44 (0)7879 878 885</a></p>
                     </div>
                 </div>
             </div>
