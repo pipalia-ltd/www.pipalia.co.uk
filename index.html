@@ -32,6 +32,7 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
+        gtag('config', 'AW-448906673');
         gtag('config', 'G-JNC5QECV8T');
     </script>
 </head>
@@ -278,6 +279,14 @@
 
     <!--Template functions-->
     <script src="js/functions.js"></script>
+
+    <script>
+        window.addEventListener('load',function(){
+          jQuery('[href*="mailto:"]').click(function(){
+            gtag('event', 'conversion', {'send_to': 'AW-448906673/R9fUCPGjzfIBELGLh9YB'});
+          })
+        })
+    </script>
 
 </body>
 
